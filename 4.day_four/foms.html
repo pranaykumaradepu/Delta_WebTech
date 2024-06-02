@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+</head>
+<body>
+    <h1>forms</h1>
+    <p>form will have a action attribute which is used to define what action need to peformed when a form is submitted or where the form data should be sent</p>
+    <p>example : </p>
+    <code>
+        &lt;form action='url'&gt;
+        <p>form content</p>
+        &lt;/form&gt;
+    </code>
+
+    <h2>Form elements</h2>
+
+    <b>input : </b>
+    <p>used to create multiplel form controls</p>
+    <p>there are multiple <b>types</b> of inputs that can be created using type attribute</p>
+    <p>it has a attribute that is placeholder used to give hints about the type of input</p>
+    
+    <hr>
+
+
+    <b>label :</b>
+    <p>Label element represent a caption for an item in a user interface</p>
+    <p>label classic approuch</p>
+    <code>
+        &lt;label for='username'&gt; Enter your username : &lt;/label&gt;
+
+        &lt;input type='text' id='username' placeholder='username'&gt;
+
+    </code>
+    <p>example</p>
+
+    <label for="username">Enter your username : </label>
+    <input type="text" id="username" placeholder="username">
+
+
+    <hr>
+    <b>button : </b>
+    <p>button element used to create a button</p>
+    <p>type attributes </p>
+    <code>
+        &lt;button type='submit'&gt;Submit&lt;/button&gt; <br> <br>
+
+        &lt;button type='reset'&gt;Reset&lt;/button&gt; <br> <br>
+
+        &lt;button type='button'&gt;Button&lt;/button&gt; <br> <br>
+    </code>
+
+    <p>example</p>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">Button</button>
+    <hr>
+
+    <p>button using input tag</p>
+    <p>Note : this is not advisrary to do so in development alwasy use buttons</p>
+
+    <code>
+        &lt;input type="submit"&gt; <br><br>
+         
+        &lt;input type='submit' value='Submit'&gt; <br> <br>
+
+    </code>
+    <p>example</p>
+
+    <input type="submit" value="submit">
+    <hr>
+    <b>Name attribute :</b>
+    <p>Name of the form control submitted with the form as a part of a name/value pair</p>
+
+    <code>
+        &lt;input type='text' name='username' id='username' placeholder='username'&gt;
+    </code>
+    <p>example</p>
+
+    <input type="text" name="username" id="username" placeholder="username">
+
+    <hr>
+    <b>checkbox : </b>
+    <p>used to create a checkbox</p>
+    <code>
+        &lt;input type='checkbox' name='age' id='age'&gt;
+        &lt;label for='age' >i am 18+ &lt;/label&gt;
+    </code>
+
+    <p>example</p>  
+    <input type="checkbox" name="age" id="age">
+    <label for="age">i am 18+</label>
+
+
+    <hr>
+    <b>radio :</b>
+    <p>used to create a radio</p>
+    <code>
+          &lt;input type='radio' name='fruit' id='apple' value='apple'&gt;
+          &lt;label for='apple' >Apple &lt;/label&gt;
+          &lt;input type='radio' name='fruit' id='mango' value='mango'&gt;
+          &lt;label for='mango' >mango &lt;/label&gt;
+    </code>
+    <p>example</p>
+    <input type="radio" name="fruit" id="apple" value="apple">
+    <label for="apple">Apple</label>
+    <input type="radio" name="fruit" id="mango" value="mango">
+    <label for="mango">mango</label>
+    <hr>
+    <b>dropdown</b>
+    <p>used to create a dropdown</p>
+    <code>
+        &lt;select name='city' id='city'&gt;
+        &lt;option value='Delhi'&gt;Delhi&lt;/option&gt;
+        &lt;option value='Mumbai'&gt;Mumbai&lt;/option&gt;
+        &lt;option value='Chennai'&gt;Chennai&lt;/option&gt;
+        &lt;/select&gt;
+    </code>
+    <p>example</p>
+    <select name="city" id="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Chennai">Chennai</option>
+    </select>
+    <hr>
+    <b>range</b>
+    <p>used to create a range</p>
+    <p>min and max attribute is used to set the range minimum and maximum</p>
+    <p>here we use step attribute to change the range with a step of 10</p>
+    <code>
+        &lt;input type='range' name='range' id='range' min='0' max='100' step='10'&gt;
+    </code>
+    <p>example</p>
+    <input type="range" name="range" id="range" min="0" max="100" step="10">
+    <hr>
+
+    <b>textarea</b>
+    <p>used to create a text area</p>
+    <code>
+        &lt;label for='comment'&gt;Enter comment here&lt;/label&gt;
+        &lt;textarea name='comment' id='comment' cols='30' rows='10'&gt;Enter comment here&lt;/textarea&gt;
+    </code>
+    <p>example :</p>
+
+    <label for="comment">Enter comment here</label>
+    <textarea name="comment" id="comment" cols="10" rows="10"></textarea>
+</body>
+</html>

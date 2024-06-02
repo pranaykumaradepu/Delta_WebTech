@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task four delta</title>
+  </head>
+  <body>
+    <h1>Task 4.0</h1>
+    <table border="black">
+      <caption>
+        A test table with merged cells
+      </caption>
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red eyes</th>
+      </tr>
+      <tr>
+        <th>Height</th>
+        <th>Weight</th>
+      </tr>
+      <tr>
+        <td>males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <td>females</td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h1>Task 4.1</h1>
+    <form action="https://www.google.com/search">
+      <label for="serach"> search : </label>
+
+      <input type="text" name="q" id="search" />
+      <button>submit</button>
+    </form>
+
+    <hr />
+
+    <h1>Task 4.2</h1>
+    <h1>Registration Form</h1>
+    <form action="/active">
+        <div>
+      <input type="text" placeholder="first name" name="fname"/>
+      <input type="text" placeholder="last name" name="lname"/>
+    </div>
+
+    <div>
+      <label for="gender">Please select gender </label>
+      <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="other">other</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="service"
+        >Do you agree to all terms of service?
+        <input type="checkbox" name="tos_agree" id="service" />Yes, I agree
+      </label>
+      <br />
+    </div>
+      <button type="submit">Register</button>
+    </form>
+    <hr><hr>
+
+    <h2>practice 4.0</h2>
+    <table border="black">
+        <caption>Student infromation</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>city</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <hr>
+    <p>Pq2 : </p>
+    <form action="">
+        <div>
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="uname">
+        </div>
+        <div>
+        <label for="sex">Sex</label>
+        <input type="radio" name="sex" id="sex" value="male">male
+        <input type="radio" name="sex" id="sex" value="female">female
+        </div>
+        <div>
+            <label for="country">Country : </label>
+            <select name="country" id="country">
+                <option value="select">Select an option</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message : </label>
+            <textarea name="message" id="message"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="sub" id="sub">
+            <label for="sub">Subscribe?</label>
+        </div>
+        <div>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+    <hr>
+
+    <h2>Feedback Form</h2>
+    <form action="">
+        <div>
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="message">Message : </label>
+            <br>
+            <textarea name="message" id="message"></textarea>
+        </div>
+        <div>
+            <label for="rate_us">Rate us our of 5 : </label>
+            <input type="radio" name="rate" id="one"><label for="one">1</label> <br>
+            <input type="radio" name="rate" id="second"><label for="second">2</label>  <br>
+            <input type="radio" name="rate" id="three"><label for="three">3</label> <br>
+            <input type="radio" name="rate" id="four"><label for="four">4</label>  <br>
+            <input type="radio" name="rate" id="five"><label for="five">5</label> 
+        </div>
+        <div>
+            <button type="submit">Send your message</button>
+        </div>
+    </form>
+  </body>
+</html>
