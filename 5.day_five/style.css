@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* css fro task 5.2 */
+
+
+p{
+    color: #a52a2a;
+    text-align: center;
+    line-height: 30px;
+}
+
+h1{
+    text-align: center;
+    color:red;
+    text-decoration: underline;
+}
+
+
+h3{
+    text-align: center;
+    color: black;
+}
+
+
+
+a{
+    color:#008000;
+    text-decoration: none;
+}
+
+button{
+    background-color: #fff;
+    color: #8a2be2;
+}
+
+textarea{
+    color: #000;
+}
+
+
+
+/* 
+
+css for task 5.0 and 5.1
+
+
+h2{
+    color: orange;
+    
+}
+
+p{
+    color: white;
+    background-color: black;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
+
+h3{
+    font-family: League spartan;
+    color:#ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration:teal double underline;
+    text-transform: uppercase;
+} */
+
