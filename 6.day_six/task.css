@@ -1,41 +1,40 @@
-*{
-    text-align: center;
+*{ 
+    text-align: center; 
+} 
+
+#mainTopic { 
+color: blue; 
+} 
+
+#mainTopic::first-letter { 
+    color: red; 
+    } 
+
+.heading{ 
+font-family: Georgia; 
+} 
+
+
+.para { 
+background-color: cornflowerblue; 
+color: white; 
+} 
+
+div button { 
+    background-color: purple; 
+    color: azure; 
 }
 
-#mainTopic{
-    color: #0000ff;
+
+button:hover { 
+background-color: yellow; 
+color: blue; 
+} 
+ 
+.para:nth-of-type(odd) { 
+color: yellow; 
+} 
+ 
+#yes:checked + label { 
+color: darkgreen; 
 }
-
-#mainTopic::first-letter{
-    color: red;
-}
-  
-.heading{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-.para{
-    color:#fff;
-    background-color:#6495ed;
-}
-
-
-div button{
-    background-color: #800080;
-    color: #f0ffff;
-}
-
-button:hover{
-    color: #0000ff;
-    background-color: #ffff00;
-}
-
-p:nth-child(odd){
-    color: #ffff00;
-}
-
-#yes:checked+label{
-    color: #006400;
-}
-
