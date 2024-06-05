@@ -1,0 +1,39 @@
+/* q1 starts here */
+#box{
+    height:150px;
+    width:300px;
+    background-color: hsl(0, 0%, 50%);
+    border: 5px dotted #000;
+    margin: 20px 1em 40px  2em;
+    padding: 1em;
+}
+
+/* q1 ends here */
+
+/* q2 starts here */
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    }
+
+/* q2 endss here */
+
+/* q3 starts here */
+
+/* note point : By default, list items (li) are block-level elements, which means they start on a new line and take up the entire available width. The bullet points are part of the default styling for block-level list items.
+
+However, when you set display: inline; for list items, they become inline elements, which means they are treated like text and flow horizontally within the same line. Inline elements do not have the concept of bullet points or other list-specific styling.
+
+To keep the bullet points while displaying the list items horizontally, you can use display: inline-block; instead of display: inline;. The inline-block value allows the list items to behave like inline elements (flow horizontally) while still maintaining their block-level properties, including the bullet points. */
+
+
+ul li{
+    display: inline-block;
+}
+
+/* q3cends here */
