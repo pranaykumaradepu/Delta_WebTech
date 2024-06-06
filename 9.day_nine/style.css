@@ -1,0 +1,44 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgb(167, 247, 250);
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(104, 102, 102);
+}
+
+/* navbar design */
+
+#menu{
+    height: 50px;
+    width: 900px;
+    background-color: #ffc0cb;
+    border: 2px solid aquamarine;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menu .option{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+    line-height:50px ;
+    border-radius: 10px;
+}
+
