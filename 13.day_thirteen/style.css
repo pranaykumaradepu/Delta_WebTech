@@ -5,25 +5,28 @@ body{
     background-color: #000;
     color: #fff;
     overflow: hidden;
+    font-family: 'Montserrat' ,sans-seri;
 }
 
 
 .main{
     display: flex;
-    width: 100vw;
     height: 100vh;
+    padding: 0.5rem;
+    
 }
 
 .sidebar{
     background-color: #000;
     width: 340px;
     border-radius: 1rem;
+    margin-right: 0.5rem;
 }
 
 .main-content{
     background-color: #121212;
     flex: 1;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     overflow: auto;
 }
 
@@ -35,8 +38,7 @@ body{
     height: 72px;
 }
 
-.nav-option a{
-
+.anchor{
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
@@ -72,3 +74,158 @@ body{
 #home{
     opacity: 1;
 }
+
+.liburary{
+    background-color: #121212;
+    border-radius: 0.5rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.lib-option img{
+    width:1.25rem;
+    height: 1.25rem;
+}
+
+.liburary .options{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover{
+    opacity: 1;
+}   
+
+.box{
+    background-color: #232323;
+    height: 10rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0rem 0.75rem 0rem;
+    padding: 0.75rem 1rem;
+}
+
+.boxone{
+    height: 7.5rem;
+}
+
+.box-para1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-para2{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.badge{
+    background-color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 6rem;
+    padding: 0.25rem 1rem;
+    /* margin-top: 0.5rem; */
+    height: 2rem;
+    width: fit-content;
+}
+
+.sticky-navbar{
+    position: sticky;
+    top: 0;
+    background-color: #121212e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem 0.5rem 1.25rem;
+}
+
+.sticky-navbar img{
+    width: 1.55rem;
+    height: 1.55rem;
+}
+
+.sticky-navbar .bar-icons{
+    flex-basis: 50%;
+}
+    
+.sticky-navbar .bar-buttons{
+        flex-basis: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.25rem;
+}
+
+.bar-buttons .two{
+    background-color: #0b0b0b;
+    color: #fff;
+}
+.bar-buttons .two:hover{
+    background-color: #000000e9;
+    color: #fff;
+}
+
+.bar-buttons i{
+    padding-right:0.75rem;
+}
+
+.albums{
+    padding: 0rem 1.5rem; 
+}
+
+.card-container{
+    display: flex;
+    flex-direction:column ;
+}
+
+.card{
+    background-color: #232323;
+    width: 180px;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 0.2rem 1rem;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card .card-title{
+    font-weight: 700;
+}
+
+.card .info{
+    font-size: 0.8rem;
+    opacity: 0.8;
+    line-height: 1.75;
+}
+
+.albums .more{
+    justify-self: end;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* media query */
+
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+/* ends */

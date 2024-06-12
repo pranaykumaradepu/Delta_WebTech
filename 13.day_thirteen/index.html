@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- icon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <!-- icon end -->
     <!-- font awsome link -->
     <link
       rel="stylesheet"
@@ -12,40 +15,93 @@
     <!-- end icons -->
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- end fonts -->
 
     <!-- custome fonts -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- end css -->
-</head>
-<body>
+  </head>
+  <body>
     <header></header>
     <main>
-        <div class="main">
-            <div class="sidebar">
-                <div class="nav">
-                    <div class="nav-option" id="home">
-                        <i class="fa-solid fa-house"></i>
-                        <a href="#">Home</a>
-                    </div>
-                    <div class="nav-option">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <a href="#">Search</a>
-                    </div>
-                </div>
-                <div class="liburary">
-
-                </div>
+      <div class="main">
+        <div class="sidebar">
+          <div class="nav">
+            <div class="nav-option" id="home">
+              <i class="fa-solid fa-house"></i>
+              <a href="#" class="anchor">Home</a>
             </div>
-            <div class="main-content">
-                main
+            <div class="nav-option">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <a href="#" class="anchor">Search</a>
             </div>
-            <div class="music-player">music</div>
+          </div>
+          <div class="liburary">
+            <div class="options">
+              <div class="lib-option  nav-option">
+                <img src="images/library_icon.png" alt="" />
+                <a href="#" class="anchor">Your liburary</a>
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="lib-boxes">
+              <div class="box boxone">
+                <p class="box-para1">Careate your first playlist</p>
+                <p class="box-para2">Its's easy, we'll help you</p>
+                <button class="badge">Create playlist</button>
+              </div>
+              <div class="box">
+                <p class="box-para1">
+                  Let's find some podcast to <br />
+                  follow
+                </p>
+                <p class="box-para2">
+                  We'll keep you updated on new <br />
+                  episodes
+                </p>
+                <button class="badge">Browse podcast</button>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="main-content">
+          <div class="sticky-navbar">
+            <div class="bar-icons">
+              <img src="images/backward_icon.png" alt=""/>
+              <img src="images/forward_icon.png" alt=""  class="hide"/>
+            </div>
+            <div class="bar-buttons">
+              <button class="badge hide">Explore premium</button>
+              <button class="badge two">
+                <i class="fa-regular fa-circle-down"></i>Install app
+              </button>
+              <i class="fa-solid fa-user"></i>
+            </div>
+
+          </div>
+          <div class="albums">
+            <h2>Recently played</h2>
+            <div class="card-container">
+              <div class="card">
+                <img src="images/card1img.jpeg" alt="" srcset="">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="info">Your daily updates of the most played tracks right...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="music-player">music</div>
+      </div>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
