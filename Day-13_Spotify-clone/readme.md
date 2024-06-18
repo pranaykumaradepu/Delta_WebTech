@@ -21,3 +21,4 @@ To run the project locally, simply open the `index.html` file in a web browser.
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
