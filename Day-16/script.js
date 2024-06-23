@@ -126,3 +126,6 @@ if (sArr.indexOf(val) != -1){
 }else{
     console.log('not found')
 }
+
+
+//end 
