@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color:rgba(174, 173, 173, 0.689);
+    
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    background-color:#dcbcf5;
+}
+.two{
+    background-color:#A0E4F1;
+}
+.three{
+    background-color:#FFCBCB;
+}
+.four{
+    background-color:#FFF8DB;
+}
+
+.flash{
+    background-color: #fff;
+}
+
+
+.userflash{
+    background-color: #767676;
+}
