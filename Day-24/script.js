@@ -53,7 +53,6 @@ function levelup(){
     let randBtn = document.querySelector(`.${randcol}`)
     gameSeq.push(randcol);
     gameFlash(randBtn);
-    console.log(gameSeq);
 }
 
 function checkAns(idx){
@@ -75,12 +74,10 @@ function checkAns(idx){
 
 function btnPress(){
     let box = this; 
-    userSeq.push(this.id);
-    console.log(userSeq);
-    
-    userFlash(box);
+    userSeq.push(this.id);    
+    userFlash(box); // flash the button
 
-    checkAns(userSeq.length-1);
+    checkAns(userSeq.length-1);  // check the answer and move on to the next level
 }
 
 let allBtns = document.querySelectorAll('.box');
